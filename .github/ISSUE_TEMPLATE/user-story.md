@@ -1,23 +1,12 @@
 ---
-name: User Story
-about: This is our default user story template
+name: Boutique1
+about: Viewing and Navigation
 title: 'User Story: <title>'
 labels: ''
 assignees: ''
 
 ---
 
-As a **role** I can **capability** so that **received benefit**
-
-## Acceptance Criteria:
-
-- Acceptance Criteria 1
-- Acceptance Criteria 2
-- Acceptance Criteria 3
+As a **role** I want to be able to  **capability** so that I can **received benefit**
 
 
-## Tasks:
-
-- [ ]  Task 1
-- [ ]  Task 2
-- [ ]  Task 3
