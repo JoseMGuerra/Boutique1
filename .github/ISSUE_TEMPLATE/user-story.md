@@ -1,6 +1,6 @@
 ---
-name: Boutique1
-about: Viewing and Navigation
+name: 'Viewing and Navigation'
+about: 'User Story Template'
 title: 'User Story: <title>'
 labels: ''
 assignees: ''
