@@ -31,7 +31,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 print(f'Debug is {DEBUG}')
 
-ALLOWED_HOSTS = ["boutique-ado-webapp.herokuapp.com", 'localhost']
+ALLOWED_HOSTS = ["www.josemguerra.com", 'localhost']
 
 
 # Application definition
