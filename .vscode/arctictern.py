@@ -97,7 +97,7 @@ def build_post_upgrade():
     upgrades = json.loads(r.content.decode("utf-8"))
     content = ""
 
-    for k,v in upgrades.items():
+    for k, v in upgrades.items():
         if float(k) > THIS_VERSION:
             print(f"Adding version changes for {k} to post_upgrade.sh")
             content += v
@@ -151,7 +151,7 @@ def start_migration():
     for file in UPGRADE_FILE_LIST:
         print(f"Processing: {file['filename']}")
         result = process(file["filename"], file["url"])
-        if result == True:
+        if result is True:
             push_and_recreate = True
     
     if push_and_recreate:
